@@ -1,0 +1,147 @@
+@import
+  "../vars"
+;
+
+#cv {
+   .avatar img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+   }
+
+   .avatar {
+      display: flex;
+      justify-content: end;
+   }
+
+   .name {
+      padding-left:60px;
+      border-left: 2px solid $brand-black;
+
+      h1 {
+         font-weight:300;
+         font-size:34px;
+         margin: 0 0 5px;
+      }
+
+      .spezialize {
+         margin: 0;
+         font-weight: bold;
+         letter-spacing: 3px;
+      }
+
+      .contact {
+         padding: 0;
+         list-style: none;
+      
+         span {
+            display: inline-block;
+            background: $brand-black;
+            color: $text-color-white;
+            width: 20px;
+            height: 20px;
+            border-radius:  50%;
+            text-align: center;
+            font-size:small;
+            margin-right: 20px;
+         }
+
+         li {
+            padding: 5px 0;
+            transform: translate(-40px);
+            background-color: #fff;
+         }
+      }
+
+   }
+
+   .info {
+      ul {
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         text-align: right;
+         line-height: 30px;
+      }
+   }
+
+   .cv {
+      padding-left:60px;
+      border-left: 2px solid $brand-black;
+
+      h1.header {
+         font-weight: 900;
+         font-size: 28px;
+         padding-bottom:15px;
+      }
+
+      .cv-entry {
+         padding-bottom: 15px;
+         h1 {
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase
+         }
+   
+         h2 {
+            font-weight: 500;
+            font-size: 18px;
+            text-transform: uppercase
+         }
+      }
+   }
+
+   .education {
+      padding-bottom: 20px;
+   }
+
+   .skills {
+      ul {
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         text-align: right;
+         line-height: 30px;
+      }
+
+      @media  (width < 768px ) {
+         ul {
+            text-align: left;
+         }
+      }
+   }
+
+   .education, .skills {
+      @media  (width >= 768px ) {
+         text-align: right;
+      }
+
+      @media (width < 768px) {
+         padding-left:60px;
+         border-left: 2px solid $brand-black;
+      }
+
+      h1.header {
+         font-weight: 900;
+         font-size: 28px;
+         padding-bottom:15px;
+      }
+
+      .edu-entry {
+         padding-bottom: 15px;
+         h1 {
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase
+         }
+   
+         h2 {
+            font-weight: 500;
+            font-size: 18px;
+            text-transform: uppercase
+         }
+      }
+   }
+
+}

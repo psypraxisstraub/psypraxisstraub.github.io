@@ -1,0 +1,30 @@
+@import
+  "../vars"
+;
+
+
+.content-section {
+  padding-top:65px;
+}
+
+.content-section-pad-bot {
+  padding-top:65px;
+  padding-bottom:65px;
+}
+
+.content-section-pad-bot-only {
+  padding-bottom:65px;
+}
+
+.content-section-no-pad {
+  padding:0;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.bg-light-grey {
+  background-color: $brand-grey-light3;
+}

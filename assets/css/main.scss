@@ -1,0 +1,20 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import
+    "vars"
+;
+
+.x-bold{
+    font-weight: 900;
+}
+
+.bg-brand-primary {
+    background:$brand-primary;
+}
+
+.bg-brand-secondary {
+    background:$brand-secondary;
+}

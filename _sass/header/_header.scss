@@ -1,0 +1,23 @@
+@import
+  "../vars"
+;
+
+header {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    //Change gradient later
+    background-image: linear-gradient(to bottom right, $brand-primary, $brand-secondary);
+
+    .header-container {
+      height: 100%;
+      padding: 120px 0 60px 0;
+      position: absolute;
+   }
+
+
+   .header-welcome-container {
+      color: $text-color-white;
+   }
+}

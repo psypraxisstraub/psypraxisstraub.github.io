@@ -1,0 +1,21 @@
+<nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top main-nav">
+    <div class="container-fluid">
+        <div class="brand-container">
+            <a href="/" class="navbar-brand nav-home-brand">{% include svg/main-logo.svg %}</a>
+        </div>
+        <button type="button" class="navbar-toggler pull-right" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            {% for nav_item in site.data.nav.main %}
+            {% if nav_item.hardlink %}
+            {% capture baseurl %}/{% endcapture %}
+            {% else %}
+            {% capture baseurl %}{% endcapture %}
+            {% endif %}
+            <a href="{{nav_item.link}}" class="nav-item nav-link">{{nav_item.name}}</a>
+            {% endfor %}
+        </div>
+    </div>
+</nav>

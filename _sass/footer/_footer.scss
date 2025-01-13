@@ -1,0 +1,63 @@
+@import
+  "../vars"
+;
+
+
+footer.main-footer {
+   color:$brand-grey-light;
+   background-color: $brand-grey;
+   font-size: 14px;
+   border-top: 5px solid $brand-grey-dark;
+
+   padding-top: 80px;
+   padding-bottom: 20px;
+
+   .footer-link {
+    color:$brand-primary;
+    display:inline-block;
+   }
+
+   .brand-container {
+    width:80px;
+   }
+
+  a {
+    text-decoration: none;
+    color: $brand-grey-light;
+  }
+
+  a:hover {
+    color: $brand-grey-light2;
+    text-decoration: underline;
+  }
+
+  .infolist {
+    font-size:14px;
+    list-style-type: none;
+    padding-left:0;
+    margin-left:0;
+  }
+
+  .infolist li {
+    padding-bottom: 3px;
+  }
+
+  .icon svg, .icon svg path, .icon svg rect, .icon svg polygon {
+    width:100%;
+    height:100%;
+    fill: $brand-grey-light;
+    transition: fill .5 ease-out;
+    transition-property: fill;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+  }
+
+  .icon svg:hover {
+    path, rect, polygon {
+        fill: $brand-primary;
+    }
+    
+  }
+}
+

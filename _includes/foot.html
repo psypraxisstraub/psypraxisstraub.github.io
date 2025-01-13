@@ -1,0 +1,11 @@
+<script src="{{"/assets/js/vendor/leaflet.js" | relative_url }}"></script>
+
+<!-- Custom JS -->
+<script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $(".navbar-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+    });
+</script>

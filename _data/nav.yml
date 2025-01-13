@@ -1,0 +1,17 @@
+main:
+  - item: home
+    link: "/"
+    hardlink: false
+    name: "Home"
+  - item: office
+    link: "/#office"
+    hardlink: false
+    name: "Praxis"
+  - item: general
+    link: "/#general"
+    hardlink: false
+    name: "Rahmenbedingungen"
+  - item: contact
+    link: "/#contact"
+    hardlink: false
+    name: "Kontakt"

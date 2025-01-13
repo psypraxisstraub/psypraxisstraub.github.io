@@ -1,0 +1,76 @@
+@import
+  "../vars"
+;
+
+#main-nav {
+    height:90px !important;
+    background: transparent !important;
+    border-bottom: 5px solid transparent;
+
+    #main-logo {
+        display: none;
+    }
+
+    a.nav-link {
+        font-family: $base-font-family;
+        font-weight: 600;
+        font-size: $large-font-size;
+        color: $text-color-white;
+        margin: 0px 20px;
+        opacity: 0.70;
+        position: relative;
+        transition: opacity 0.5s;
+    }
+
+    a.nav-link:hover {
+        opacity: 1;
+    }
+
+    a.nav-link::after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 5px;
+        border: none;
+        background-color: #fff;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        z-index: 10;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    a.nav-link:hover::after {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+#main-nav.scrolled {
+    scroll-margin-top: 100px !important;
+    background-color: $background-color-white !important;
+    transition: background-color 0.3s linear;
+    border-bottom: 5px solid $brand-primary;
+
+    a.nav-link {
+        color: $brand-primary;
+        opacity: 0.70;
+        transition: opacity 0.5s;
+    }
+
+    a.nav-link:hover{
+        opacity: 1;
+    }
+
+    a.nav-link::after {
+        background-color: $brand-primary;
+    }
+
+    #main-logo {
+        position: relative;
+        display: inline-block;
+        height: 80px;
+    }
+}
