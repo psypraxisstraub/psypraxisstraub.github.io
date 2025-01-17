@@ -1,0 +1,24 @@
+@import
+  "../vars"
+;
+
+article.blogpost-teaser {
+  .image-link {
+    display: inline-block;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .teaser-header {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+
+    .slash-separator:after {
+      content: '/';
+      padding: 0px 5px 0px 5px;
+  }
+  }
+}

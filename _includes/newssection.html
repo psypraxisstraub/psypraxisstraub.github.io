@@ -1,0 +1,22 @@
+<section id="newssection" class="content-section-pad-bot bg-dark-grey">
+   <div class="container">
+      <div class="section-header">
+         <h2 class="section-heading">Neues</h2>
+      </div>
+      {% if site.posts.size > 0 %}
+      <div class="row">
+         <div class="col-md-12">
+            {% for post in site.posts limit:1 %}
+               {% include post_preview.html preview_size_small=true %}
+            {% endfor %}
+         </div>
+      </div>
+      {% else %}
+      <div class="row">
+         <div class="col-md-12">
+            <h4>Es gibt keine Neuigkeiten!</h4>
+         </div>
+      </div>
+      {% endif %}
+      </div>
+</section>

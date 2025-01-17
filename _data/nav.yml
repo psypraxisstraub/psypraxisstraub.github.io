@@ -3,12 +3,16 @@ main:
     link: "/"
     hardlink: false
     name: "Home"
+  - item: about
+    link: "/#cv"
+    hardlink: false
+    name: "Über Mich"
   - item: office
     link: "/#office"
     hardlink: false
     name: "Praxis"
-  - item: general
-    link: "/#general"
+  - item: parameters
+    link: "/#parameters"
     hardlink: false
     name: "Rahmenbedingungen"
   - item: contact
