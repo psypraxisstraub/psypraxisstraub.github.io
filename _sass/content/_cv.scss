@@ -10,9 +10,18 @@
       object-fit: cover;
    }
 
-   .avatar {
-      display: flex;
-      justify-content: end;
+   @media  (width >= 768px ) {
+      .avatar {
+         display: flex;
+         justify-content: end;
+      }
+   }
+
+   @media (width < 768px) {
+      .avatar {
+         display: flex;
+         justify-content: center;
+      }
    }
 
    .name {
@@ -57,13 +66,27 @@
    }
 
    .info {
-      ul {
-         padding: 0;
-         margin: 0;
-         list-style: none;
-         text-align: right;
-         line-height: 30px;
+      @media  (width >= 768px ) {
+         ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: right;
+            line-height: 30px;
+         }
       }
+   
+      @media (width < 768px) {
+         ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+            line-height: 30px;
+            padding-bottom: 15px;
+         }
+      }
+      
    }
 
    .cv {
