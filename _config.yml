@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.psypraxis-linz.at" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 author: Sofia Straub
-keywords: psypraxis
+keywords: psypraxis, sofia straub, psypraxis linz, klinische psychologin
 twitter_username: psypraxis
 github_username: psypraxis
 
