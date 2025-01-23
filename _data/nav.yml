@@ -3,10 +3,6 @@ main:
     link: "/"
     hardlink: false
     name: "Home"
-  - item: about
-    link: "/#cv"
-    hardlink: false
-    name: "Über Mich"
   - item: office
     link: "/#office"
     hardlink: false
@@ -15,6 +11,10 @@ main:
     link: "/#parameters"
     hardlink: false
     name: "Rahmenbedingungen"
+  - item: about
+    link: "/#cv"
+    hardlink: false
+    name: "Über Mich"
   - item: contact
     link: "/#contact"
     hardlink: false

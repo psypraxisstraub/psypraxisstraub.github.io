@@ -3,12 +3,37 @@
 ;
 
 article.blogpost-teaser {
+  color:#fff;
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $brand-primary;
+  }
+
+  p {
+    padding: 0;
+    line-height:1.5;
+  }
+
   .image-link {
     display: inline-block;
   }
 
   img {
     width: 100%;
+  }
+
+  .blog-button {
+    margin: 40px 0 30px 0;
+  }
+
+  .blog-button:hover {
+    transition: all .45s;
+    color: $brand-primary;
+    border: 2px solid $brand-primary;
   }
 
   .teaser-header {

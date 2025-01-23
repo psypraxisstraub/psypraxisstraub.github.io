@@ -25,10 +25,31 @@
   padding-bottom: 50px;
 }
 
+
 .bg-light-grey {
   background-color: $brand-grey-light3;
 }
 
 .bg-dark-grey {
-  background-color: $brand-grey-light;
+  background-color: $brand-grey;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+////////BUTTONS
+.btn-slim-primary {
+  background-color: inherit;
+  border:2px solid #fff;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
+
+.btn {
+  border-radius: 0;
+  font-weight: 600;
 }

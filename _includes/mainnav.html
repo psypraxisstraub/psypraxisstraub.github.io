@@ -1,4 +1,19 @@
+{% if page.url == "/" %}
+    {% capture prefix %}{% endcapture %}
+    {% capture pagescroll %}page-scroll{% endcapture %}
+    {% capture ishome %}true{% endcapture %}
+    {% capture test %}Demo{% endcapture %}
+{% else %}
+    {% capture prefix %}/{% endcapture %}
+{% endif %}
+
+
+
+{% if ishome %}
 <nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top main-nav">
+{% else %}
+<nav id="blog-nav" class="navbar fixed-top navbar-expand-md navbar-top main-nav">
+{% endif %}
     <div class="container-fluid">
         <div class="brand-container">
             <a href="/" class="navbar-brand nav-home-brand">{% include svg/main-logo.svg %}</a>

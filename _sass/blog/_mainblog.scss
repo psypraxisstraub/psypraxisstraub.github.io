@@ -1,0 +1,37 @@
+@import
+  "../vars"
+;
+
+#blog {
+   padding-top:120px;
+
+   .section-header {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  article.blogpost-teaser {
+    color: $brand-black;
+
+    a {
+      color: $brand-primary;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .more-posts {
+      display:none;
+    }
+  }
+}
+
+#post{
+  padding-top:120px;
+
+  img {
+    width: 100%;
+  }
+}

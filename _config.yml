@@ -46,15 +46,15 @@ regenerate: false
 show_drafts: false
 future: false
 
-blogname: "news"
-permalink: news/:year/:month/:day/:title/
+blogname: "blog"
+permalink: blog/:year/:month/:day/:title/
 paginate: 20
-paginate_path: "news/page:num/"
+paginate_path: "blog/page:num/"
 
 collections:
   category:
     output: true
-    permalink: /news/:name/
+    permalink: /blog/:name/
 
 defaults:
   - scope:

@@ -2,7 +2,7 @@
   "../vars"
 ;
 
-#main-nav {
+#main-nav, #blog-nav {
     height:90px !important;
     background: transparent !important;
     border-bottom: 5px solid transparent;
@@ -105,6 +105,25 @@
         .navbar-collapse {
             background-color: #fff;
         }
+    }
+
+    #main-logo {
+        position: relative;
+        display: inline-block;
+        height: 80px;
+    }
+}
+
+#blog-nav {
+    background: #fff !important;
+    border-bottom: 5px solid $brand-primary;
+
+    a.nav-link {
+        color: $brand-primary;
+    }
+
+    a.nav-link::after {
+        background-color: $brand-primary;
     }
 
     #main-logo {
