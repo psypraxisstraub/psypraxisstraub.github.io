@@ -8,7 +8,7 @@ header {
     overflow: hidden;
 
     //Change gradient later
-    background-image: linear-gradient(to bottom right, $brand-primary, $brand-secondary);
+    background-image: linear-gradient(to bottom right, $brand-secondary, $brand-primary);
 
     .header-container {
       height: 100%;
