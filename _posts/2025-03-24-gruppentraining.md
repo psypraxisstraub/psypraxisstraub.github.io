@@ -5,6 +5,8 @@ title: "Gruppentraining sozialer Kompetenzen"
 description: Gruppentherapie zu sozialen Kompetenzen.
 keywords: Gruppentraining, GSK
 date: 2025-03-24 17:00 +0200
+periodprefix: Anmeldefrist
+perioddate: 2025-04-30 17:00 +0200
 categories:
   - "Neues"
 author: Sofia
@@ -43,3 +45,4 @@ Kompromisse zwischen eigenen Bedürfnissen und sozialer Anpassung finden.
 Auf Ihr Kommen freut sich Frau Sofia Straub, MSc.!<br />
 Klinische Psychologin, Skillstrainerin nach DBT, Caregiver für psychosoziale Notfallhilfe
 </div>
+<br />
