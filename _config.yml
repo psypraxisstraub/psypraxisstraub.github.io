@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Psypraxis Linz
+title: Psypraxis Freistadt
 title_tail: " - Straub"
-email: sofiastraub2@gmail.com
+email: straubsofia1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Website of psypraxis linz.
+  Website of psypraxis Freistadt.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.psypraxis-linz.at" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.psypraxis-freistadt.at" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 author: Sofia Straub
-keywords: psypraxis, sofia straub, psypraxis linz, klinische psychologin
+keywords: psypraxis, sofia straub, psypraxis freistadt, klinische psychologin
 twitter_username: psypraxis
 github_username: psypraxis
 
